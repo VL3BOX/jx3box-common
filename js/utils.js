@@ -6,7 +6,7 @@ module.exports = {
     // 图片处理函数
     resolveImagePath: function (str) {
         if (str && str.length) {
-            str = str.replace(/oss\.jx3box\.com/g, "cdn.jx3box.com");
+            str = str.replace(/oss\.jx3box\.com/g, "cdn.vl3box.com");
             str = str.replace(/http:/g, "https:");
             return str;
         } else {
@@ -18,7 +18,7 @@ module.exports = {
         jq.length &&
             jq.one("error", function () {
                 var img_url = $(this).attr("src");
-                var fix_url = img_url.replace(/cdn\.jx3box\.com/g, "oss.jx3box.com");
+                var fix_url = img_url.replace(/cdn\.jx3box\.com/g, "oss.vl3box.com");
                 $(this).attr("src", fix_url);
             });
     },
@@ -54,7 +54,7 @@ module.exports = {
 
         // CDN
         if (replace) {
-            avatar = avatar.replace(/oss\.jx3box\.com/g, "cdn.jx3box.com");
+            avatar = avatar.replace(/oss\.jx3box\.com/g, "cdn.vl3box.com");
         }
 
         return avatar;
@@ -69,7 +69,7 @@ module.exports = {
         url = url.replace(/http:/g, "https:");
 
         if (replace) {
-            url = url.replace(/oss\.jx3box\.com/g, "cdn.jx3box.com");
+            url = url.replace(/oss\.jx3box\.com/g, "cdn.vl3box.com");
         }
 
         url += `?x-oss-process=style/${style}`;
@@ -86,7 +86,7 @@ module.exports = {
         url = url.replace(/http:/g, "https:");
 
         if (replace) {
-            url = url.replace(/oss\.jx3box\.com/g, "cdn.jx3box.com");
+            url = url.replace(/oss\.jx3box\.com/g, "cdn.vl3box.com");
         }
 
         if (Array.isArray(size)) {

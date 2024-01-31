@@ -1,46 +1,46 @@
 {
-    "__Domain": "www.jx3box.com",
-    "__Origin": "origin.jx3box.com",
+    "__Domain": "www.vl3box.com",
+    "__Origin": "origin.vl3box.com",
 
-    "__Root": "https://www.jx3box.com/",
-    "__OriginRoot": "https://origin.jx3box.com/",
-    "__Github": "https://github.jx3box.com/",
-    "__Preview": "https://preview.jx3box.com/",
+    "__Root": "https://www.vl3box.com/",
+    "__OriginRoot": "https://origin.vl3box.com/",
+    "__Github": "https://github.vl3box.com/",
+    "__Preview": "https://preview.vl3box.com/",
 
-    "__server": "https://server.jx3box.com/",
-    "__sso": "https://sso.jx3box.com/",
+    "__server": "https://server.vl3box.com/",
+    "__sso": "https://sso.vl3box.com/",
 
-    "__cms": "https://cms.jx3box.com/",
-    "__node": "https://node.jx3box.com/",
-    "__spider": "https://spider.jx3box.com/",
-    "__spider2": "https://spider2.jx3box.com/",
+    "__cms": "https://cms.vl3box.com/",
+    "__node": "https://node.vl3box.com/",
+    "__spider": "https://spider.vl3box.com/",
+    "__spider2": "https://spider2.vl3box.com/",
 
-    "__next": "https://next2.jx3box.com/",
-    "__pay": "https://pay.jx3box.com/",
-    "__team": "https://team.api.jx3box.com/",
-    "__lua": "https://lua.jx3box.com/",
-    "__down": "https://down.jx3box.com/",
-    "__dbm": "https://dbm.jx3box.com/",
+    "__next": "https://next2.vl3box.com/",
+    "__pay": "https://pay.vl3box.com/",
+    "__team": "https://team.api.vl3box.com/",
+    "__lua": "https://lua.vl3box.com/",
+    "__down": "https://down.vl3box.com/",
+    "__dbm": "https://dbm.vl3box.com/",
 
-    "__helperUrl": "https://helper.jx3box.com/",
-    "__os": "https://os.jx3box.com/",
+    "__helperUrl": "https://helper.vl3box.com/",
+    "__os": "https://os.vl3box.com/",
 
     "__jx3": "https://xn--3-4g8a959k.com/",
 
-    "__cdn": "https://cdn.jx3box.com/",
-    "__ossRoot": "https://oss.jx3box.com/",
-    "__ossMirror": "https://cdn.jx3box.com/",
+    "__cdn": "https://cdn.vl3box.com/",
+    "__ossRoot": "https://oss.vl3box.com/",
+    "__ossMirror": "https://cdn.vl3box.com/",
 
     "__staticPath": {
-        "origin": "https://oss.jx3box.com/static/",
-        "github": "https://jx3box.github.io/",
+        "origin": "https://oss.vl3box.com/static/",
+        "github": "https://vl3box.github.io/",
         "jsdelivr": "https://cdn.jsdelivr.net/gh/JX3BOX/",
-        "mirror": "https://cdn.jx3box.com/static/"
+        "mirror": "https://vl3box.com/static/"
     },
 
-    "__dataPath": "https://data.jx3box.com/",
-    "__imgPath": "https://img.jx3box.com/",
-    "__iconPath": "https://icon.jx3box.com/",
+    "__dataPath": "https://data.vl3box.com/",
+    "__imgPath": "https://img.vl3box.com/",
+    "__iconPath": "https://icon.vl3box.com/",
 
     "__clients": {
         "std": "旗舰",
@@ -185,6 +185,6 @@
         }
     },
 
-    "default_avatar": "https://cdn.jx3box.com/image/common/avatar.png",
+    "default_avatar": "https://cdn.vl3box.com/image/common/avatar.png",
     "feedback": "https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=o8LHzsrN48nbkMHM243AzM4"
 }
