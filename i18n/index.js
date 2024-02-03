@@ -7,12 +7,13 @@ Vue.use(VueI18n);
 // default language that is preloaded
 const loadedLanguages = ["zh-CN"];
 
+const silentTranslationWarn = localStorage.getItem("silentTranslationWarn") || true;
 const i18n = new VueI18n({
   locale: "zh-CN",
   fallbackLocale: "zh-CN",
   formatFallbackMessages: true,
   messages: {},
-  silentTranslationWarn: process.env.NODE_ENV === "production",
+  silentTranslationWarn, // process.env.NODE_ENV === "production",
 });
 
 const currentLang = localStorage.getItem("lang") || "zh-CN";
