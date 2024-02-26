@@ -7,7 +7,7 @@ Vue.use(VueI18n);
 // default language that is preloaded
 const loadedLanguages = ["zh-CN"];
 
-const translationWarn = ~~localStorage.getItem("translationWarn");
+const translationWarn = ~~sessionStorage.getItem("translationWarn");
 const i18n = new VueI18n({
   locale: "zh-CN",
   fallbackLocale: "zh-CN",
@@ -16,7 +16,7 @@ const i18n = new VueI18n({
   silentTranslationWarn: !translationWarn, // process.env.NODE_ENV === "production",
 });
 
-const currentLang = localStorage.getItem("lang") || "zh-CN";
+const currentLang = sessionStorage.getItem("lang") || "zh-CN";
 console.log("currentLang", currentLang);
 
 export function changeLocale(lang) {
@@ -25,7 +25,7 @@ export function changeLocale(lang) {
   } else {
     // momment or dayjs locale
   }
-  localStorage.setItem("lang", lang);
+  sessionStorage.setItem("lang", lang);
   loadLanguageAsync(lang);
   // window.location.reload();
 }
@@ -54,7 +54,7 @@ export function loadLanguageAsync(lang) {
       /* webpackChunkName: "[request]" */ `./locales/${lang}.json`
     );
     console.log("messages", JSON.stringify(messages.default));
-    localStorage.setItem("locale", JSON.stringify(messages.default));
+    sessionStorage.setItem("locale", JSON.stringify(messages.default));
     i18n.setLocaleMessage(lang, messages.default);
     loadedLanguages.push(lang);
     return setI18nLanguage(lang);
@@ -66,7 +66,7 @@ export function loadLanguageAsync(lang) {
     return $cms()
       .get("/locales/vi.json")
       .then((res) => {
-        localStorage.setItem("locale", JSON.stringify(res.data));
+        sessionStorage.setItem("locale", JSON.stringify(res.data));
         loadedLanguages.push(lang);
 
         i18n.setLocaleMessage(lang, res.data);
@@ -77,7 +77,7 @@ export function loadLanguageAsync(lang) {
       });
   }
 
-  const langData = localStorage.getItem("locale");
+  const langData = sessionStorage.getItem("locale");
   if (langData) {
     loadedLanguages.push(lang);
     i18n.setLocaleMessage(lang, JSON.parse(langData));
