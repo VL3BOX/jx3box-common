@@ -1,6 +1,9 @@
 import Vue from "vue";
 import VueI18n from "vue-i18n";
 import { $cms } from "../js/https";
+import moment from "moment";
+import dayjs from "dayjs";
+import { zhcnDateTimeFormat } from "./datetime";
 
 Vue.use(VueI18n);
 
@@ -22,8 +25,12 @@ console.log("currentLang", currentLang);
 export function changeLocale(lang) {
   if (currentLang === "zh-CN") {
     // momment or dayjs locale
+    moment.locale("zh-cn", zhcnDateTimeFormat);
+    dayjs.locale("zh-cn", zhcnDateTimeFormat);
   } else {
     // momment or dayjs locale
+    moment.locale("vi");
+    dayjs.locale("vi");
   }
   sessionStorage.setItem("lang", lang);
   loadLanguageAsync(lang);
@@ -64,7 +71,7 @@ export function loadLanguageAsync(lang) {
     console.log("ONLINE", lang);
 
     return $cms()
-      .get("/locales/vi.json")
+      .get(`/locales/${lang}.json`)
       .then((res) => {
         sessionStorage.setItem("locale", JSON.stringify(res.data));
         loadedLanguages.push(lang);
