@@ -1,0 +1,15 @@
+{
+    "cms": {
+        "newbie": "Tân thủ",
+        "advanced": "Nâng cao",
+        "recommended": "Đề xuất",
+        "geek": "Thiết yếu"
+    },
+    "colors": {
+        "newbie": "#6f42c1",
+        "advanced": "#6f42c1",
+        "recommended": "#6f42c1",
+        "geek": "#6f42c1",
+        "fallacy": "#c00"
+    }
+}

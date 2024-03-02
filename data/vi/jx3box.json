@@ -1,0 +1,190 @@
+{
+    "__Domain": "www.vl3box.com",
+    "__Origin": "origin.vl3box.com",
+
+    "__Root": "https://www.vl3box.com/",
+    "__OriginRoot": "https://origin.vl3box.com/",
+    "__Github": "https://github.vl3box.com/",
+    "__Preview": "https://preview.vl3box.com/",
+
+    "__server": "https://server.vl3box.com/",
+    "__sso": "https://sso.vl3box.com/",
+
+    "__cms": "https://cms.vl3box.com/",
+    "__node": "https://node.vl3box.com/",
+    "__spider": "https://spider.vl3box.com/",
+    "__spider2": "https://spider2.vl3box.com/",
+
+    "__next": "https://next2.vl3box.com/",
+    "__pay": "https://pay.vl3box.com/",
+    "__team": "https://team.api.vl3box.com/",
+    "__lua": "https://lua.vl3box.com/",
+    "__down": "https://down.vl3box.com/",
+    "__dbm": "https://dbm.vl3box.com/",
+
+    "__helperUrl": "https://helper.vl3box.com/",
+    "__os": "https://os.vl3box.com/",
+
+    "__jx3": "https://xn--3-4g8a959k.com/",
+
+    "__cdn": "https://cdn.vl3box.com/",
+    "__ossRoot": "https://oss.vl3box.com/",
+    "__ossMirror": "https://cdn.vl3box.com/",
+
+    "__staticPath": {
+        "origin": "https://oss.vl3box.com/static/",
+        "github": "https://vl3box.github.io/",
+        "jsdelivr": "https://cdn.jsdelivr.net/gh/JX3BOX/",
+        "mirror": "https://vl3box.com/static/"
+    },
+
+    "__dataPath": "https://data.vl3box.com/",
+    "__imgPath": "https://img.vl3box.com/",
+    "__iconPath": "https://icon.vl3box.com/",
+
+    "__clients": {
+        "std": "Kỳ hạm",
+        "origin": "Duyên khởi",
+        "wujie": "Vô giới",
+        "all": "Tất cả"
+    },
+
+    "__postType": {
+        "macro": "Macro",
+        "bps": "BPS",
+        "pvp": "Đối kháng",
+        "fb": "Phó bản",
+        "tool": "Công cụ",
+        "bbs": "Trà quán",
+        "notice": "Thông báo"
+    },
+
+    "__wikiType": {
+        "achievement": "Thành tựu",
+        "item": "Vật phẩm",
+        "knowledge": "Kiến thức chung",
+        "quest": "Nhiệm vụ"
+    },
+
+    "__appType": {
+        "face": "Dị dung",
+        "body": "Hình thể",
+        "pz": "Phối trang",
+        "pkg": "Gói dữ liệu",
+        "vpk": "Gói giọng nói",
+        "joke": "Chuyện phiếm",
+        "emotion": "Biểu cảm",
+        "collection": "Bộ sưu tập",
+        "item_plan": "Kế hoạch vật phẩm",
+        "question": "Câu hỏi",
+        "paper": "Đề thi",
+        "calendar": "Lịch",
+        "battle": "Chiến đấu"
+    },
+
+    "__gameType": {
+        "pet": "Sủng vật",
+        "adventure": "Kỳ ngộ",
+        "furniture": "Gia cụ",
+        "horse": "Tọa kỵ",
+        "book": "Thư tịch",
+        "exterior": "Ngoại quan",
+        "reputation": "Thanh vọng"
+    },
+    
+    "__bbsSubtype": {
+        "strategy": {
+            "label": "Công lược tâm đắc",
+            "value": 1
+        },
+        "guide": {
+            "label": "Hướng dẫn tân thủ",
+            "value": 2
+        },
+        "news": {
+            "label": "Giang hồ dị văn",
+            "value": 3
+        },
+        "fiction": {
+            "label": "Đồng nhân tác phẩm",
+            "value": 4
+        }
+    },
+
+    "__sourceType": {
+        "cms_types": ["macro", "jx3dat", "fb", "bps", "tool", "bbs", "notice", "house", "share", "joke", "emotion", "feedback", "collection", "face"],
+        "pvx_types": ["pet", "adventure", "furniture", "horse", "book", "exterior", "reputation", "namespace"],
+        "wiki_types": ["cj", "achievement", "item", "item_plan", "wiki", "knowledge", "quest"],
+        "app_types": ["pz", "calendar", "battle"],
+        "exam_types": ["question", "paper"],
+        "db_types": ["skill", "buff", "npc", "doodad"],
+        "dbm_types": ["pkg", "item", "vpk"],
+        "team_types": ["org", "role", "raid", "apply"],
+        "vip_types": ["mall"]
+    },
+
+    "__visibleMap": {
+        "0": "Công khai",
+        "1": "Chỉ mình tôi",
+        "2": "Chỉ bạn bè của tôi",
+        "3": "Chỉ dùng mật khẩu",
+        "4": "Chỉ thanh toán",
+        "5": "Chỉ người hâm mộ"
+    },
+
+    "__userGroup": {
+        "0": "Du khách",
+        "1": "Người dùng chưa xác thực",
+        "8": "Người dùng đã xác thực",
+        "16": "Đã xác minh",
+        "32": "Tác giả hợp đồng đặc biệt",
+        "64": "Biên tập",
+        "128": "Quản lý viên",
+        "256": "Quản lý cao cấp",
+        "512": "Quản lý siêu cấp"
+    },
+
+    "__userLevel": {
+        "1": [0, 600],
+        "2": [600, 900],
+        "3": [900, 1800],
+        "4": [1800, 3600],
+        "5": [3600, 7200],
+        "6": [7200, 14400],
+        "7": [14400, 28800],
+        "8": [28000, 999999]
+    },
+
+    "__userLevelColor": {
+        "1": "#32d3c4",
+        "2": "#86c0fb",
+        "3": "#33d9ff",
+        "4": "#ffdb2a",
+        "5": "#ffa739",
+        "6": "#ff70b2",
+        "7": "#ff3399",
+        "8": "#f93c3c"
+    },
+
+    "__Links": {
+        "account": {
+            "login": "/account/login",
+            "register": "/account/register",
+            "email_verify": "/account/email_verify",
+            "login_callback": "/account/login_callback"
+        },
+        "dashboard": {
+            "home": "/dashboard",
+            "msg": "/dashboard/msg",
+            "feed": "/dashboard/feed",
+            "fav": "/dashboard/fav",
+            "profile": "/dashboard/profile",
+            "connect": "/dashboard/connect",
+            "work": "/publish",
+            "publish": "/publish"
+        }
+    },
+
+    "default_avatar": "https://cdn.vl3box.com/image/common/avatar.png",
+    "feedback": "https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=o8LHzsrN48nbkMHM243AzM4"
+}

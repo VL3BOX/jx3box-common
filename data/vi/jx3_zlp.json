@@ -1,0 +1,169 @@
+{
+  "std": [
+    "Vạn Linh Đương Ca",
+    "Quần Hiệp Vạn Biến",
+    "Hoành Đao Đoạn Lãng",
+    "Giang Hồ Vô Hạn",
+    "Bắc Thiên Dược Tông",
+    "Bạch Đế Phong Vân",
+    "Kỳ Tha"
+  ],
+  "origin": [
+    "An Sử Chi Loạn",
+    "Nhật Nguyệt Minh Tôn",
+    "Kiếm Hồ Thần Cung",
+    "Ba Thục Phong Vân",
+    "Ngũ Độc Hiện Thế",
+    "Thánh Điện Vân Khởi",
+    "Tàng Kiếm Sơn Trang",
+    "Vật Hoa Thiên Bảo",
+    "Kỳ Tha"
+  ],
+  "all": [
+    "Vạn Linh Đương Ca",
+    "Quần Hiệp Vạn Biến",
+    "An Sử Chi Loạn",
+    "Nhật Nguyệt Minh Tôn",
+    "Hoành Đao Đoạn Lãng",
+    "Kiếm Hồ Thần Cung",
+    "Ba Thục Phong Vân",
+    "Giang Hồ Vô Hạn",
+    "Ngũ Độc Hiện Thế",
+    "Thánh Điện Vân Khởi",
+    "Bắc Thiên Dược Tông",
+    "Bạch Đế Phong Vân",
+    "Tàng Kiếm Sơn Trang",
+    "Vật Hoa Thiên Bảo",
+    "Kỳ Tha"
+  ],
+  "std_map": [
+    {
+      "label": "Vạn Linh Đương Ca",
+      "value": "Wanlingdangge"
+    },
+    {
+      "label": "Quần Hiệp Vạn Biến",
+      "value": "Qunxiawanbian"
+    },
+    {
+      "label": "Hoành Đao Đoạn Lãng",
+      "value": "Hengdaoduanlang"
+    },
+    {
+      "label": "Giang Hồ Vô Hạn",
+      "value": "Jianghuwuxian"
+    },
+    {
+      "label": "Bắc Thiên Dược Tông",
+      "value": "Beitianyaozong"
+    },
+    {
+      "label": "Bạch Đế Phong Vân",
+      "value": "Baidifengyun"
+    },
+    {
+      "label": "Kỳ Tha",
+      "value": "Other"
+    }
+  ],
+  "origin_map": [
+    {
+      "label": "An Sử Chi Loạn",
+      "value": "Anshizhiluan"
+    },
+    {
+      "label": "Nhật Nguyệt Minh Tôn",
+      "value": "Riyuemingzun"
+    },
+    {
+      "label": "Kiếm Hồ Thần Cung",
+      "value": "Jianhushenggong"
+    },
+    {
+      "label": "Ba Thục Phong Vân",
+      "value": "Bashufengyun"
+    },
+    {
+      "label": "Ngũ Độc Hiện Thế",
+      "value": "Wuduxianshi"
+    },
+    {
+      "label": "Thánh Điện Vân Khởi",
+      "value": "Shengdianyunqi"
+    },
+    {
+      "label": "Tàng Kiếm Sơn Trang",
+      "value": "Cangjianshanzhuang"
+    },
+    {
+      "label": "Vật Hoa Thiên Bảo",
+      "value": "Wuhuatianbao"
+    },
+    {
+      "label": "Kỳ Tha",
+      "value": "Other"
+    }
+  ],
+  "all_map": [
+    {
+      "label": "Vạn Linh Đương Ca",
+      "value": "Wanlingdangge"
+    },
+    {
+      "label": "Quần Hiệp Vạn Biến",
+      "value": "Qunxiawanbian"
+    },
+    {
+      "label": "An Sử Chi Loạn",
+      "value": "Anshizhiluan"
+    },
+    {
+      "label": "Nhật Nguyệt Minh Tôn",
+      "value": "Riyuemingzun"
+    },
+    {
+      "label": "Hoành Đao Đoạn Lãng",
+      "value": "Hengdaoduanlang"
+    },
+    {
+      "label": "Kiếm Hồ Thần Cung",
+      "value": "Jianhushenggong"
+    },
+    {
+      "label": "Ba Thục Phong Vân",
+      "value": "Bashufengyun"
+    },
+    {
+      "label": "Giang Hồ Vô Hạn",
+      "value": "Jianghuwuxian"
+    },
+    {
+      "label": "Ngũ Độc Hiện Thế",
+      "value": "Wuduxianshi"
+    },
+    {
+      "label": "Thánh Điện Vân Khởi",
+      "value": "Shengdianyunqi"
+    },
+    {
+      "label": "Bắc Thiên Dược Tông",
+      "value": "Beitianyaozong"
+    },
+    {
+      "label": "Bạch Đế Phong Vân",
+      "value": "Baidifengyun"
+    },
+    {
+      "label": "Tàng Kiếm Sơn Trang",
+      "value": "Cangjianshanzhuang"
+    },
+    {
+      "label": "Vật Hoa Thiên Bảo",
+      "value": "Wuhuatianbao"
+    },
+    {
+      "label": "Kỳ Tha",
+      "value": "Other"
+    }
+  ]
+}
