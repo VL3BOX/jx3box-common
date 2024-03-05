@@ -1,9 +1,11 @@
+import Vue from "vue";
 import VueI18n from "vue-i18n";
 import { $cms } from "../js/https";
 import moment from "moment";
 import dayjs from "dayjs";
 import { zhcnDateTimeFormat } from "./datetime";
 
+Vue.use(VueI18n);
 
 // default language that is preloaded
 const loadedLanguages = ["zh-CN"];
@@ -30,7 +32,7 @@ export function changeLocale(lang) {
   }
   sessionStorage.setItem("lang", lang);
   loadLanguageAsync(lang);
-  window.location.reload();
+  // window.location.reload();
 }
 
 export function setLocale(lang) {
@@ -74,6 +76,7 @@ export function loadLanguageAsync(lang) {
         loadedLanguages.push(lang);
 
         i18n.setLocaleMessage(lang, res.data);
+
         return setLocale(lang);
       })
       .catch(() => {
